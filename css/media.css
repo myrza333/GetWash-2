@@ -2,6 +2,104 @@
 }
 
 @media (max-width: 1024px) {
+  #header {
+    .header {
+      display: flex;
+      gap: 10px;
+    }
+  }
+
+  #main-3 {
+    position: relative;
+    .main-3 {
+      .img-son1 {
+        max-width: 700px;
+        width: 100%;
+      }
+      .img-son2 {
+        max-width: 200px;
+        width: 100%;
+        position: absolute;
+        left: 20px;
+        top: 40px;
+      }
+      .img-son3 {
+        max-width: 200px;
+        width: 100%;
+        position: absolute;
+        right: 220px;
+      }
+      .img-son4 {
+        max-width: 150px;
+        width: 100%;
+      }
+    }
+  }
+
+  #last {
+    .last {
+      .colors {
+        position: relative;
+        .pink2 {
+          max-width: 970px;
+          width: 100%;
+        }
+        .pink3 {
+          max-width: 200px;
+          width: 100%;
+          position: absolute;
+          left: 40px;
+          top: 40px;
+        }
+        .pink4 {
+          max-width: 200px;
+          width: 100%;
+          position: absolute;
+          left: 40px;
+          top: 100px;
+        }
+        .pink5 {
+          max-width: 100px;
+          width: 100%;
+          position: absolute;
+          bottom: 50px;
+          left: 40px;
+        }
+        .pink6 {
+          max-width: 100px;
+          width: 100%;
+          position: absolute;
+          left: 160px;
+          bottom: 50px;
+        }
+        .pink7 {
+          max-width: 300px;
+          width: 100%;
+        }
+      }
+      .mini-text {
+        display: flex;
+        gap: 90px;
+
+        max-width: 600px;
+        width: 100%;
+      }
+      .texxt {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+
+  #footer {
+    background: #000;
+    max-width: 900px;
+    width: 100%;
+    .footer {
+      max-width: 500px;
+      width: 100%;
+    }
+  }
 }
 
 @media (max-width: 992px) {
